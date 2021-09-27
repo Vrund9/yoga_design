@@ -419,6 +419,286 @@
   font-weight: 300;
 }
 
+.practice_section .practice_container {
+  display: flex;
+  margin: 1rem 4rem;
+  padding: 2rem;
+  border: 1px solid black;
+}
+
+.practice_section .practice_container .practice_items {
+  justify-content: space-around;
+}
+
+.practice_section .practice_container .practice_items .title {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  color: #745a82;
+  letter-spacing: 0.25rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.practice_section .practice_container .practice_items .subTitle {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  color: #745a82;
+  letter-spacing: 0.25rem;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.practice_section .practice_container .practice_items .hatha_title {
+  margin-top: 2rem;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  color: #745a82;
+  letter-spacing: 0.25rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.practice_section .practice_container .practice_items .hatha_title .light {
+  font-weight: 300;
+}
+
+.practice_section .practice_container .practice_items .hatha_desc {
+  font-family: "Open Sans", sans-serif;
+  color: #745a82;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
+  line-height: 2rem;
+  margin-top: 1rem;
+}
+
+.practice_section .practice_container .practice_items .lines {
+  color: #745a82;
+}
+
+.practice_section .practice_container .practice_items .after_lines {
+  margin-top: 1rem;
+  font-family: "Open Sans", sans-serif;
+  color: #745a82;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 32px;
+}
+
+.practice_section .practice_container .practice_items .items_container {
+  display: flex;
+}
+
+.practice_section .practice_container .practice_items .items_container .items {
+  margin-top: 1.5rem;
+  display: inline-block;
+  text-align: left;
+  font-family: "Open Sans", sans-serif;
+  color: #745a82;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 2px;
+  justify-content: space-around;
+}
+
+.practice_section .practice_container .practice_items .items_container .items .light {
+  font-weight: 300;
+}
+
+.practice_section .practice_container .practice_items .items_container .center_div {
+  margin-left: 2rem;
+}
+
+.practice_section .practice_container .right_side_flex {
+  border: 1px solid black;
+}
+
+.practice_section .practice_container .right_side_flex .rightOutside {
+  background: url(../Assets/Practice_Section/outside.png) no-repeat scroll 0 0/cover;
+}
+
+.practice_section .practice_container .right_side_flex .rightOutside .rightInside {
+  border-radius: 50%;
+  margin-top: 5rem;
+  margin-left: 20rem;
+  height: 70%;
+  width: 45%;
+}
+
+.position_section .position_container {
+  display: flex;
+  margin: 1rem 4rem;
+  padding: 2rem;
+  border: 1px solid black;
+}
+
+.position_section .position_container .position_items {
+  justify-content: space-around;
+}
+
+.position_section .position_container .position_items .title {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  color: #745a82;
+  letter-spacing: 0.25rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.position_section .position_container .position_items .subTitle {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  color: #745a82;
+  letter-spacing: 0.25rem;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.position_section .position_container .position_items .Kundalini_title {
+  margin-top: 2rem;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  color: #745a82;
+  letter-spacing: 0.25rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.position_section .position_container .position_items .Kundalini_title .light {
+  font-weight: 300;
+}
+
+.position_section .position_container .position_items .Kundalini_desc {
+  font-family: "Open Sans", sans-serif;
+  color: #745a82;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
+  line-height: 2rem;
+  margin-top: 1rem;
+}
+
+.position_section .position_container .position_items .lines {
+  color: #745a82;
+}
+
+.position_section .position_container .position_items .after_lines {
+  margin-top: 1rem;
+  font-family: "Open Sans", sans-serif;
+  color: #745a82;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 32px;
+}
+
+.position_section .position_container .position_items .items_container {
+  display: flex;
+}
+
+.position_section .position_container .position_items .items_container .items {
+  margin-top: 1.5rem;
+  display: inline-block;
+  text-align: left;
+  font-family: "Open Sans", sans-serif;
+  color: #745a82;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 2px;
+  justify-content: space-around;
+}
+
+.position_section .position_container .position_items .items_container .items .light {
+  font-weight: 300;
+}
+
+.position_section .position_container .position_items .items_container .center_div {
+  margin-left: 2rem;
+}
+
+.position_section .position_container .right_side_float {
+  float: right;
+  margin-left: 20rem;
+}
+
+.position_section .position_container .left_side_float {
+  float: left;
+}
+
+.workshop_class .workshop_container {
+  display: flex;
+  margin: 1rem 4rem;
+  padding: 2rem;
+  position: relative;
+}
+
+.workshop_class .workshop_container .workshop_items {
+  justify-content: space-around;
+}
+
+.workshop_class .workshop_container .workshop_items .straight {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  color: #745a82;
+  font-size: 0.8rem;
+  text-orientation: upright;
+  writing-mode: vertical-rl;
+  display: inline-block;
+  top: 0;
+  position: absolute;
+  letter-spacing: 10px;
+  line-height: 33px;
+}
+
+.workshop_class .workshop_container .workshop_items .title {
+  font-weight: 300;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  color: #745a82;
+  font-size: 2.5rem;
+  letter-spacing: 4px;
+  line-height: 58px;
+  display: inline-block;
+  margin-left: 1.5rem;
+  top: 0;
+  left: 50px;
+  position: absolute;
+}
+
+.workshop_class .workshop_container .workshop_items .dark {
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  color: #745a82;
+  font-size: 2.5rem;
+  letter-spacing: 4px;
+  line-height: 58px;
+  display: inline-block;
+}
+
+.workshop_class .workshop_container .workshop_items .para_try {
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  color: #745a82;
+  position: absolute;
+  top: 135px;
+  left: 75px;
+  letter-spacing: 2px;
+  line-height: 32px;
+}
+
+.workshop_class .workshop_container .workshop_items .dates {
+  font-family: "Open Sans", sans-serif;
+  color: #745a82;
+  position: absolute;
+  top: 220px;
+  left: 75px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  line-height: 32px;
+  font-size: 1.2rem;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;

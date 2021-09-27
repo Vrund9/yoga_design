@@ -1,0 +1,107 @@
+@mixin common {
+  font-family: $Open_Font;
+  text-transform: uppercase;
+  color: $Purple_color;
+  letter-spacing: 0.25rem;
+  font-size: 2rem;
+}
+
+.practice_section {
+  & .practice_container {
+    display: flex;
+    margin: 1rem 4rem;
+    padding: 2rem;
+    border: 1px solid black;
+
+    & .practice_items {
+      justify-content: space-around;
+
+      & .title {
+        @include common;
+        font-weight: 700;
+      }
+
+      & .subTitle {
+        @include common;
+        font-weight: 300;
+      }
+
+      & .hatha_title {
+        margin-top: 2rem;
+        @include common;
+        font-weight: 700;
+
+        & .light {
+          font-weight: 300;
+        }
+      }
+
+      & .hatha_desc {
+        font-family: $Open_Font;
+        color: $Purple_color;
+        letter-spacing: 0.1rem;
+        font-weight: 400;
+        line-height: 2rem;
+        margin-top: 1rem;
+      }
+
+      & .lines {
+        color: $Purple_color;
+      }
+
+      & .after_lines {
+        margin-top: 1rem;
+        font-family: $Open_Font;
+        color: $Purple_color;
+        font-size: 1rem;
+        font-weight: 700;
+        letter-spacing: 2px;
+        line-height: 32px;
+      }
+
+      & .items_container {
+        display: flex;
+
+        & .items {
+          margin-top: 1.5rem;
+          display: inline-block;
+          text-align: left;
+          font-family: $Open_Font;
+          color: $Purple_color;
+          font-weight: 700;
+          line-height: 23px;
+          letter-spacing: 2px;
+          justify-content: space-around;
+
+          & .light {
+            font-weight: 300;
+          }
+        }
+
+        & .center_div {
+          margin-left: 2rem;
+        }
+      }
+    }
+
+    & .right_side_flex {
+      // margin-left: 24rem;
+      // background-image: url(../Assets/Practice_Section/outside.png);
+      //
+      border: 1px solid black;
+
+      & .rightOutside {
+        background: url(../Assets/Practice_Section/outside.png) no-repeat scroll
+          0 0 / cover;
+
+        & .rightInside {
+          border-radius: 50%;
+          margin-top: 5rem;
+          margin-left: 20rem;
+          height: 70%;
+          width: 45%;
+        }
+      }
+    }
+  }
+}
