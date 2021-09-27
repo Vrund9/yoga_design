@@ -1,0 +1,62 @@
+@mixin common_para {
+  font-family: $Open_Font;
+  text-transform: uppercase;
+  color: $Purple_color;
+  line-height: 46px;
+}
+
+.health_section {
+  & .health_title {
+    text-align: center;
+    margin: 2rem 0 0 0;
+
+    & .para_1 {
+      font-weight: 600;
+      font-size: 1.8rem;
+      @include common_para;
+    }
+
+    & .para_2 {
+      font-weight: 300;
+      font-size: 1.8rem;
+      @include common_para;
+    }
+  }
+
+  & .health_container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem;
+    margin-left: 2rem;
+    padding: 1rem 1rem;
+
+    & .health_items {
+      & .health_img {
+        width: 25%;
+        height: 55%;
+        margin: 0 auto;
+        align-self: center;
+        display: block;
+      }
+
+      & .health_item_title {
+        margin-top: 1rem;
+        text-align: center;
+        font-family: $Open_Font;
+        font-size: 1.2rem;
+        color: $Purple_color;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+
+      & .health_para {
+        margin-top: 1rem;
+        text-align: center;
+        font-family: $Open_Font;
+        font-size: 1.2rem;
+        color: $Purple_color;
+        font-weight: 300;
+      }
+    }
+  }
+}

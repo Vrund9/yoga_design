@@ -1,0 +1,98 @@
+@mixin common_para {
+  font-family: $Open_Font;
+  text-transform: uppercase;
+  color: $Purple_color;
+  letter-spacing: 0.25rem;
+  font-size: 2.5rem;
+}
+
+.yoga_class {
+  & .yoga_title {
+    text-align: center;
+    margin: 2rem 0 0 0;
+
+    & .para_1 {
+      font-weight: 300;
+      @include common_para;
+    }
+
+    & .para_2 {
+      font-weight: 700;
+      @include common_para;
+    }
+  }
+
+  & .yoga_main_container {
+    padding: 1rem 5rem;
+    margin-top: 4rem;
+    margin-left: 6rem;
+    display: flex;
+    justify-content: space-around;
+    // border: 1px solid black;
+
+    & .yoga_main_items {
+      & .yoga_img {
+        height: 60%;
+        width: 60%;
+        border-radius: 50%;
+      }
+
+      & .yoga_class_title {
+        margin-top: 1.1rem;
+        font-family: $Open_Font;
+        font-weight: 700;
+        color: $Purple_color;
+        font-size: 1.5rem;
+      }
+
+      & .yoga_class_desc {
+        margin-top: 1rem;
+        font-family: $Open_Font;
+        font-weight: 300;
+        color: $Purple_color;
+        font-size: 1.2rem;
+      }
+
+      & .yoga_line {
+        margin-top: 1rem;
+        color: $Purple_color;
+      }
+
+      & .yoga_day {
+        margin-top: 0.6rem;
+        font-family: $Open_Font;
+        font-weight: 700;
+        color: $Purple_color;
+        font-size: 1.3rem;
+
+        & .yoga_time {
+          margin-left: 0.6rem;
+          font-family: $Open_Font;
+          font-weight: 300;
+          color: $Purple_color;
+        }
+      }
+    }
+  }
+
+  & .button_div {
+    text-align: center;
+    margin-top: 5rem;
+
+    & .yoga_show_button {
+      color: white;
+      background-color: $Purple_color;
+      padding: 1rem;
+      border-radius: 2rem;
+      width: 15%;
+      font-size: 1rem;
+      font-weight: 700;
+      font-family: $Open_Font;
+      letter-spacing: 5px;
+      line-height: 1.3rem;
+      border: none;
+      text-transform: uppercase;
+      box-shadow: 10px;
+    }
+  }
+}
