@@ -91,6 +91,25 @@
 
     & .left_side_float {
       float: left;
+
+      & .leftoutsideout {
+        margin-left: 10rem;
+        border: 1px solid $Purple_color;
+        padding: 1rem;
+        border-radius: 50%;
+
+        & .leftOutside {
+          border: 1px solid $Purple_color;
+          padding: 1rem;
+          border-radius: 50%;
+
+          & .leftInside {
+            border: 1px solid $Purple_color;
+            padding: 1rem;
+            border-radius: 50%;
+          }
+        }
+      }
     }
   }
 }

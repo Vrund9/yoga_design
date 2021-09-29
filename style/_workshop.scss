@@ -8,67 +8,116 @@
 }
 
 .workshop_class {
+  border: 1px solid black;
+  height: 80vh;
+  padding: 3rem;
+  margin: 4rem;
+
   & .workshop_container {
     display: flex;
     margin: 1rem 4rem;
     padding: 2rem;
-    position: relative;
+    // position: relative;
 
     & .workshop_items {
       justify-content: space-around;
 
-      & .straight {
-        font-family: $Open_Font;
-        text-transform: uppercase;
-        color: $Purple_color;
-        font-size: 0.8rem;
-        text-orientation: upright;
-        writing-mode: vertical-rl;
-        display: inline-block;
-        top: 0;
-        position: absolute;
-        letter-spacing: 10px;
-        line-height: 33px;
+      & .left_side {
+        position: relative;
+        border: 1px solid black;
+
+        & .straight {
+          font-family: $Open_Font;
+          text-transform: uppercase;
+          color: $Purple_color;
+          font-size: 0.8rem;
+          text-orientation: upright;
+          writing-mode: vertical-rl;
+          display: inline-block;
+          top: 0;
+          position: absolute;
+          letter-spacing: 10px;
+          line-height: 33px;
+        }
+
+        & .title {
+          font-weight: 300;
+          @include common;
+          display: inline-block;
+          margin-left: 3.5rem;
+          top: 10px;
+          left: 50px;
+          width: 20vw;
+          position: absolute;
+          margin-top: -20px;
+        }
+
+        & .dark {
+          font-weight: 700;
+          @include common;
+          display: inline-block;
+        }
+
+        & .para_try {
+          font-size: 1.2rem;
+          font-weight: 700;
+          font-family: $Open_Font;
+          color: $Purple_color;
+          position: absolute;
+          top: 135px;
+          left: 105px;
+          letter-spacing: 2px;
+          line-height: 32px;
+          width: 20vw;
+        }
+
+        & .dates {
+          font-family: $Open_Font;
+          color: $Purple_color;
+          position: absolute;
+          top: 220px;
+          left: 105px;
+          font-weight: 300;
+          letter-spacing: 2px;
+          line-height: 32px;
+          font-size: 1.2rem;
+        }
       }
 
-      & .title {
-        font-weight: 300;
-        @include common;
-        display: inline-block;
-        margin-left: 1.5rem;
-        top: 0;
-        left: 50px;
-        position: absolute;
-      }
+      & .rightoutsideout {
+        border: 1px solid $Purple_color;
+        padding: 1rem;
+        border-radius: 50%;
+        margin-left: 55rem;
 
-      & .dark {
-        font-weight: 700;
-        @include common;
-        display: inline-block;
-      }
+        & .rightoutside {
+          border: 1px solid $Purple_color;
+          padding: 1rem;
+          border-radius: 50%;
 
-      & .para_try {
-        font-size: 1.2rem;
-        font-weight: 700;
-        font-family: $Open_Font;
-        color: $Purple_color;
-        position: absolute;
-        top: 135px;
-        left: 75px;
-        letter-spacing: 2px;
-        line-height: 32px;
-      }
+          & .rightout {
+            border: 2px solid $dark_purple;
+            padding: 0.5rem;
+            border-radius: 50%;
 
-      & .dates {
-        font-family: $Open_Font;
-        color: $Purple_color;
-        position: absolute;
-        top: 220px;
-        left: 75px;
-        font-weight: 300;
-        letter-spacing: 2px;
-        line-height: 32px;
-        font-size: 1.2rem;
+            & .rightlast {
+              border: 1px solid $Purple_color;
+              padding: 1rem;
+              border-radius: 50%;
+
+              & .inner {
+                & .right {
+                  // position: absolute;
+                  right: 400px;
+                }
+
+                & .inner_Circle {
+                  border: 1px solid black;
+                }
+              }
+            }
+          }
+        }
       }
     }
   }

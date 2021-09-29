@@ -85,21 +85,23 @@
     }
 
     & .right_side_flex {
-      // margin-left: 24rem;
-      // background-image: url(../Assets/Practice_Section/outside.png);
-      //
-      border: 1px solid black;
+      margin-left: 25rem;
+      & .rightoutsideout {
+        margin-left: 10rem;
+        border: 1px solid $Purple_color;
+        padding: 1rem;
+        border-radius: 50%;
 
-      & .rightOutside {
-        background: url(../Assets/Practice_Section/outside.png) no-repeat scroll
-          0 0 / cover;
-
-        & .rightInside {
+        & .rightOutside {
+          border: 1px solid $Purple_color;
+          padding: 1rem;
           border-radius: 50%;
-          margin-top: 5rem;
-          margin-left: 20rem;
-          height: 70%;
-          width: 45%;
+
+          & .rightInside {
+            border: 1px solid $Purple_color;
+            padding: 1rem;
+            border-radius: 50%;
+          }
         }
       }
     }

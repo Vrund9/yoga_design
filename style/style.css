@@ -510,19 +510,26 @@
 }
 
 .practice_section .practice_container .right_side_flex {
-  border: 1px solid black;
+  margin-left: 25rem;
 }
 
-.practice_section .practice_container .right_side_flex .rightOutside {
-  background: url(../Assets/Practice_Section/outside.png) no-repeat scroll 0 0/cover;
-}
-
-.practice_section .practice_container .right_side_flex .rightOutside .rightInside {
+.practice_section .practice_container .right_side_flex .rightoutsideout {
+  margin-left: 10rem;
+  border: 1px solid #745a82;
+  padding: 1rem;
   border-radius: 50%;
-  margin-top: 5rem;
-  margin-left: 20rem;
-  height: 70%;
-  width: 45%;
+}
+
+.practice_section .practice_container .right_side_flex .rightoutsideout .rightOutside {
+  border: 1px solid #745a82;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+.practice_section .practice_container .right_side_flex .rightoutsideout .rightOutside .rightInside {
+  border: 1px solid #745a82;
+  padding: 1rem;
+  border-radius: 50%;
 }
 
 .position_section .position_container {
@@ -624,18 +631,48 @@
   float: left;
 }
 
+.position_section .position_container .left_side_float .leftoutsideout {
+  margin-left: 10rem;
+  border: 1px solid #745a82;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+.position_section .position_container .left_side_float .leftoutsideout .leftOutside {
+  border: 1px solid #745a82;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+.position_section .position_container .left_side_float .leftoutsideout .leftOutside .leftInside {
+  border: 1px solid #745a82;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+.workshop_class {
+  border: 1px solid black;
+  height: 80vh;
+  padding: 3rem;
+  margin: 4rem;
+}
+
 .workshop_class .workshop_container {
   display: flex;
   margin: 1rem 4rem;
   padding: 2rem;
-  position: relative;
 }
 
 .workshop_class .workshop_container .workshop_items {
   justify-content: space-around;
 }
 
-.workshop_class .workshop_container .workshop_items .straight {
+.workshop_class .workshop_container .workshop_items .left_side {
+  position: relative;
+  border: 1px solid black;
+}
+
+.workshop_class .workshop_container .workshop_items .left_side .straight {
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
   color: #745a82;
@@ -649,7 +686,7 @@
   line-height: 33px;
 }
 
-.workshop_class .workshop_container .workshop_items .title {
+.workshop_class .workshop_container .workshop_items .left_side .title {
   font-weight: 300;
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
@@ -658,13 +695,15 @@
   letter-spacing: 4px;
   line-height: 58px;
   display: inline-block;
-  margin-left: 1.5rem;
-  top: 0;
+  margin-left: 3.5rem;
+  top: 10px;
   left: 50px;
+  width: 20vw;
   position: absolute;
+  margin-top: -20px;
 }
 
-.workshop_class .workshop_container .workshop_items .dark {
+.workshop_class .workshop_container .workshop_items .left_side .dark {
   font-weight: 700;
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
@@ -675,28 +714,152 @@
   display: inline-block;
 }
 
-.workshop_class .workshop_container .workshop_items .para_try {
+.workshop_class .workshop_container .workshop_items .left_side .para_try {
   font-size: 1.2rem;
   font-weight: 700;
   font-family: "Open Sans", sans-serif;
   color: #745a82;
   position: absolute;
   top: 135px;
-  left: 75px;
+  left: 105px;
   letter-spacing: 2px;
   line-height: 32px;
+  width: 20vw;
 }
 
-.workshop_class .workshop_container .workshop_items .dates {
+.workshop_class .workshop_container .workshop_items .left_side .dates {
   font-family: "Open Sans", sans-serif;
   color: #745a82;
   position: absolute;
   top: 220px;
-  left: 75px;
+  left: 105px;
   font-weight: 300;
   letter-spacing: 2px;
   line-height: 32px;
   font-size: 1.2rem;
+}
+
+.workshop_class .workshop_container .workshop_items .rightoutsideout {
+  border: 1px solid #745a82;
+  padding: 1rem;
+  border-radius: 50%;
+  margin-left: 55rem;
+}
+
+.workshop_class .workshop_container .workshop_items .rightoutsideout .rightoutside {
+  border: 1px solid #745a82;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+.workshop_class .workshop_container .workshop_items .rightoutsideout .rightoutside .rightout {
+  border: 2px solid #6d5a80;
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+
+.workshop_class .workshop_container .workshop_items .rightoutsideout .rightoutside .rightout .rightlast {
+  border: 1px solid #745a82;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+.workshop_class .workshop_container .workshop_items .rightoutsideout .rightoutside .rightout .rightlast .inner .right {
+  right: 400px;
+}
+
+.workshop_class .workshop_container .workshop_items .rightoutsideout .rightoutside .rightout .rightlast .inner .inner_Circle {
+  border: 1px solid black;
+}
+
+.footer {
+  margin: 4rem;
+  border: 1px solid black;
+}
+
+.footer .quotes_part {
+  text-align: center;
+}
+
+.footer .quotes_part .upper_image {
+  margin: 1rem;
+}
+
+.footer .quotes_part .quote {
+  margin: 1rem;
+  font-family: "Open Sans", sans-serif;
+  color: #745a82;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 42px;
+  text-transform: uppercase;
+}
+
+.footer .quotes_part .quote_sign {
+  font-size: 3rem;
+  font-family: "Open Sans", sans-serif;
+  color: #745a82;
+  font-weight: 700;
+}
+
+.footer .footer_container {
+  display: flex;
+}
+
+.footer .footer_container .footer_items {
+  margin: 2rem 4rem;
+}
+
+.footer .footer_container .footer_items .title {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  color: #745a82;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.footer .footer_container .footer_items .desc {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  color: #745a82;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 29px;
+  text-transform: capitalize;
+}
+
+.footer .footer_container .footer_items .footer_logo {
+  margin-top: 2rem;
+}
+
+.footer .footer_container .rightside {
+  margin-left: 33rem;
+}
+
+.footer .footer_container .rightside .about_design {
+  margin: 3rem;
+  display: inline-block;
+  align-self: flex-end;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  color: #745a82;
+}
+
+.footer .footer_container .rightside .about_design p {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.footer .footer_container .rightside .about_design ul {
+  margin-top: 1rem;
+}
+
+.footer .footer_container .rightside .about_design ul li {
+  font-size: 0.8rem;
+  font-weight: 400;
+  list-style-type: none;
+  line-height: 23px;
 }
 
 * {

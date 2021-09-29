@@ -1,0 +1,85 @@
+@mixin common {
+  font-family: $Open_Font;
+  text-transform: uppercase;
+  color: $Purple_color;
+}
+
+.footer {
+  margin: 4rem;
+  border: 1px solid black;
+
+  & .quotes_part {
+    text-align: center;
+    & .upper_image {
+      margin: 1rem;
+    }
+    & .quote {
+      margin: 1rem;
+      font-family: $Open_Font;
+      color: $Purple_color;
+      font-size: 1.5rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+      line-height: 42px;
+      text-transform: uppercase;
+    }
+
+    & .quote_sign {
+      font-size: 3rem;
+      font-family: $Open_Font;
+      color: $Purple_color;
+      font-weight: 700;
+    }
+  }
+
+  & .footer_container {
+    display: flex;
+
+    & .footer_items {
+      margin: 2rem 4rem;
+
+      & .title {
+        @include common;
+        font-weight: 700;
+        font-size: 1.5rem;
+      }
+
+      & .desc {
+        @include common;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 29px;
+        text-transform: capitalize;
+      }
+
+      & .footer_logo {
+        margin-top: 2rem;
+      }
+    }
+
+    & .rightside {
+      margin-left: 33rem;
+      & .about_design {
+        margin: 3rem;
+        display: inline-block;
+        align-self: flex-end;
+        @include common;
+
+        & p {
+          font-size: 1rem;
+          font-weight: 700;
+        }
+
+        & ul {
+          margin-top: 1rem;
+          & li {
+            font-size: 0.8rem;
+            font-weight: 400;
+            list-style-type: none;
+            line-height: 23px;
+          }
+        }
+      }
+    }
+  }
+}
