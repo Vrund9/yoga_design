@@ -7,18 +7,27 @@
 }
 
 .yoga_class {
-  & .yoga_title {
-    text-align: center;
-    margin: 2rem 0 0 0;
+  & .pic {
+    background-image: url(../Assets/Shape.svg);
+    height: 35vh;
+    width: 100%;
+    transform: rotate(180deg);
+    padding: 1.5rem;
 
-    & .para_1 {
-      font-weight: 300;
-      @include common_para;
-    }
+    & .yoga_title {
+      transform: rotate(180deg);
+      text-align: center;
+      margin-top: 5rem;
 
-    & .para_2 {
-      font-weight: 700;
-      @include common_para;
+      & .para_1 {
+        font-weight: 300;
+        @include common_para;
+      }
+
+      & .para_2 {
+        font-weight: 700;
+        @include common_para;
+      }
     }
   }
 
@@ -32,44 +41,49 @@
 
     & .yoga_main_items {
       & .yoga_img {
-        height: 60%;
-        width: 60%;
+        height: 50%;
+        width: 55%;
         border-radius: 50%;
       }
 
-      & .yoga_class_title {
-        margin-top: 1.1rem;
-        font-family: $Open_Font;
-        font-weight: 700;
-        color: $Purple_color;
-        font-size: 1.5rem;
-      }
+      & .slide_left {
+        margin-left: 1rem;
+        & .yoga_class_title {
+          margin-top: 1.1rem;
+          font-family: $Open_Font;
+          font-weight: 700;
+          color: $Purple_color;
+          font-size: 1.5rem;
+        }
 
-      & .yoga_class_desc {
-        margin-top: 1rem;
-        font-family: $Open_Font;
-        font-weight: 300;
-        color: $Purple_color;
-        font-size: 1.2rem;
-      }
-
-      & .yoga_line {
-        margin-top: 1rem;
-        color: $Purple_color;
-      }
-
-      & .yoga_day {
-        margin-top: 0.6rem;
-        font-family: $Open_Font;
-        font-weight: 700;
-        color: $Purple_color;
-        font-size: 1.3rem;
-
-        & .yoga_time {
-          margin-left: 0.6rem;
+        & .yoga_class_desc {
+          margin-top: 1rem;
           font-family: $Open_Font;
           font-weight: 300;
           color: $Purple_color;
+          font-size: 1.2rem;
+        }
+
+        & .yoga_line {
+          margin-top: 1rem;
+          // color: $Purple_color;
+          background-color: $Purple_color;
+          height: 1px;
+        }
+
+        & .yoga_day {
+          margin-top: 0.6rem;
+          font-family: $Open_Font;
+          font-weight: 700;
+          color: $Purple_color;
+          font-size: 1.3rem;
+
+          & .yoga_time {
+            margin-left: 0.6rem;
+            font-family: $Open_Font;
+            font-weight: 300;
+            color: $Purple_color;
+          }
         }
       }
     }
@@ -93,6 +107,16 @@
       border: none;
       text-transform: uppercase;
       box-shadow: 10px;
+      box-shadow: 25px 18px 31px -15px rgba(0, 0, 0, 0.33);
+      cursor: pointer;
+      transition: 0.4s;
+
+      &:hover {
+        color: $Purple_color;
+        background-color: white;
+        border: 2px solid $Purple_color;
+        box-sizing: border-box;
+      }
     }
   }
 }

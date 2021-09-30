@@ -3,18 +3,24 @@
   text-transform: uppercase;
   color: $Purple_color;
   letter-spacing: 0.25rem;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .practice_section {
+  background-image: url(../Assets/Practice_Section/new.png);
+  background-repeat: no-repeat;
+  margin-top: -9rem;
+  margin-left: -6rem;
+  // border: 1px solid black;
   & .practice_container {
     display: flex;
-    margin: 1rem 4rem;
-    padding: 2rem;
-    border: 1px solid black;
+    // margin: 1rem 4rem;
+    padding: 14rem;
+    // border: 1px solid black;
 
     & .practice_items {
       justify-content: space-around;
+      // border: 1px solid black;
 
       & .title {
         @include common;
@@ -27,7 +33,7 @@
       }
 
       & .hatha_title {
-        margin-top: 2rem;
+        margin-top: 3rem;
         @include common;
         font-weight: 700;
 
@@ -85,6 +91,7 @@
     }
 
     & .right_side_flex {
+      // border: 1px solid black;
       margin-left: 25rem;
       & .rightoutsideout {
         margin-left: 10rem;

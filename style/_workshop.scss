@@ -8,7 +8,6 @@
 }
 
 .workshop_class {
-  border: 1px solid black;
   height: 80vh;
   padding: 3rem;
   margin: 4rem;
@@ -21,6 +20,7 @@
 
     & .workshop_items {
       justify-content: space-around;
+      position: relative;
 
       & .left_side {
         position: relative;
@@ -118,6 +118,40 @@
             }
           }
         }
+      }
+
+      & .circle {
+        position: absolute;
+        top: 5rem;
+        right: 3rem;
+        width: 1%;
+        height: 3%;
+        border-radius: 50%;
+        background-color: $Purple_color;
+      }
+
+      & .circle2 {
+        position: absolute;
+        top: 25rem;
+        right: 25.5rem;
+        width: 1%;
+        height: 3%;
+        border-radius: 50%;
+        background-color: $Purple_color;
+      }
+
+      & .straightfont {
+        position: absolute;
+        top: 18rem;
+        right: -7rem;
+        font-family: $Open_Font;
+        text-transform: uppercase;
+        color: $Purple_color;
+        font-size: 1.2rem;
+        text-orientation: upright;
+        writing-mode: vertical-rl;
+        letter-spacing: 10px;
+        line-height: 33px;
       }
     }
   }

@@ -6,6 +6,27 @@
 }
 
 .health_section {
+  position: relative;
+  & .health_line {
+    height: 0.2rem;
+    width: 40%;
+    top: 0;
+    left: 6rem;
+    background-color: $Purple_color;
+    margin-top: 2rem;
+    position: absolute;
+  }
+
+  & .health_line2 {
+    height: 0.2rem;
+    width: 40%;
+    background-color: $Purple_color;
+    margin-top: 2rem;
+    position: absolute;
+    top: 0;
+    right: 6rem;
+  }
+
   & .health_title {
     text-align: center;
     margin: 2rem 0 0 0;
@@ -32,7 +53,7 @@
 
     & .health_items {
       & .health_img {
-        width: 25%;
+        width: 60%;
         height: 55%;
         margin: 0 auto;
         align-self: center;

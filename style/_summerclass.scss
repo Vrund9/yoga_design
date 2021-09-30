@@ -28,48 +28,50 @@
     margin-left: 3rem;
     display: flex;
     justify-content: space-around;
-    // border: 1px solid black;
 
     & .summer_main_items {
       & .summer_img {
-        height: 55%;
+        height: 50%;
         width: 80%;
         border-radius: 50%;
       }
 
-      & .summer_class_title {
-        margin-top: 1.1rem;
-        font-family: $Open_Font;
-        font-weight: 700;
-        color: $Purple_color;
-        font-size: 1.5rem;
-      }
+      & .summer_join {
+        margin-left: 1rem;
+        & .summer_class_title {
+          margin-top: 1.1rem;
+          font-family: $Open_Font;
+          font-weight: 700;
+          color: $Purple_color;
+          font-size: 1.5rem;
+        }
 
-      & .summer_class_desc {
-        margin-top: 1rem;
-        font-family: $Open_Font;
-        font-weight: 300;
-        color: $Purple_color;
-        font-size: 1.2rem;
-      }
-
-      & .summer_line {
-        margin-top: 1rem;
-        color: $Purple_color;
-      }
-
-      & .summer_day {
-        margin-top: 0.6rem;
-        font-family: $Open_Font;
-        font-weight: 700;
-        color: $Purple_color;
-        font-size: 1.3rem;
-
-        & .summer_time {
-          margin-left: 0.6rem;
+        & .summer_class_desc {
+          margin-top: 1rem;
           font-family: $Open_Font;
           font-weight: 300;
           color: $Purple_color;
+          font-size: 1.2rem;
+        }
+
+        & .summer_line {
+          margin-top: 1rem;
+          color: $Purple_color;
+        }
+
+        & .summer_day {
+          margin-top: 0.6rem;
+          font-family: $Open_Font;
+          font-weight: 700;
+          color: $Purple_color;
+          font-size: 1.3rem;
+
+          & .summer_time {
+            margin-left: 0.6rem;
+            font-family: $Open_Font;
+            font-weight: 300;
+            color: $Purple_color;
+          }
         }
       }
     }
@@ -94,6 +96,16 @@
       text-transform: uppercase;
       box-shadow: 10px;
       margin-bottom: 2rem;
+      box-shadow: 25px 18px 31px -15px rgba(0, 0, 0, 0.33);
+      cursor: pointer;
+      transition: 0.4s;
+
+      &:hover {
+        color: $Purple_color;
+        background-color: white;
+        border: 2px solid $Purple_color;
+        box-sizing: border-box;
+      }
     }
   }
 }
