@@ -1,0 +1,111 @@
+.middle_banner {
+  margin: 6rem 0 4rem 0;
+  & .img_back {
+    background: url(../Assets/Middle_banner/1.jpg) no-repeat scroll 0 0 / cover;
+    width: 100%;
+    height: 140vh;
+    position: relative;
+    overflow: hidden;
+
+    & .front_image {
+      background: url(../Assets/Middle_banner/Shape.svg) no-repeat scroll 0 0 /
+        cover;
+      width: 150vw;
+      height: 110vh;
+      top: -15rem;
+      left: -30rem;
+      position: absolute;
+      z-index: 2;
+    }
+
+    & .outsidecircle {
+      width: 25vw;
+      height: 50vh;
+      position: absolute;
+      z-index: 4;
+      border-radius: 60%;
+      border: 1px solid $dark_purple;
+      top: 1rem;
+      left: 8rem;
+
+      & .outcircle {
+        width: 20vw;
+        height: 40vh;
+        position: absolute;
+        z-index: 5;
+        border-radius: 60%;
+        border: 2px solid $dark_purple;
+        top: 3rem;
+        left: 3rem;
+
+        & .make_circle {
+          width: 15vw;
+          height: 30vh;
+          position: absolute;
+          z-index: 4;
+          border-radius: 60%;
+          top: 3rem;
+          left: 3rem;
+          background-color: white;
+          box-shadow: 0 0 2px;
+
+          & .off {
+            font-family: $Open_Font;
+            font-size: 4rem;
+            font-weight: 700;
+            color: $Purple_color;
+            margin-top: 3rem;
+            margin-left: 4rem;
+
+            & .light {
+              font-family: $Open_Font;
+              font-weight: 300;
+            }
+          }
+          & .lightsmall {
+            font-family: $Open_Font;
+            font-size: 2.3rem;
+            font-weight: 300;
+            margin-top: 1rem;
+            margin-left: 7rem;
+            color: $Purple_color;
+          }
+        }
+      }
+    }
+
+    & .summer_class_time {
+      position: relative;
+
+      & .summer_title {
+        color: white;
+        position: absolute;
+        top: 35rem;
+        left: 17rem;
+        z-index: 5;
+        font-family: $Open_Font;
+        font-size: 2.3rem;
+        letter-spacing: 4px;
+        line-height: 3.5rem;
+        font-weight: 700;
+
+        & span {
+          font-weight: 300;
+        }
+      }
+
+      & .summer_dates {
+        color: white;
+        position: absolute;
+        top: 45rem;
+        left: 17rem;
+        z-index: 5;
+        font-family: $Open_Font;
+        font-size: 1.3rem;
+        letter-spacing: 2px;
+        line-height: 2.5rem;
+        font-weight: 700;
+      }
+    }
+  }
+}
