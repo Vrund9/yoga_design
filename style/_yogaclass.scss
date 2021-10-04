@@ -3,7 +3,6 @@
   text-transform: uppercase;
   color: $Purple_color;
   letter-spacing: 0.25rem;
-  font-size: 2.5rem;
 }
 
 .yoga_class {
@@ -22,11 +21,13 @@
       & .para_1 {
         font-weight: 300;
         @include common_para;
+        font-size: 2.5rem;
       }
 
       & .para_2 {
         font-weight: 700;
         @include common_para;
+        font-size: 2.5rem;
       }
     }
   }
@@ -116,6 +117,197 @@
         background-color: white;
         border: 2px solid $Purple_color;
         box-sizing: border-box;
+      }
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  .yoga_class {
+    & .pic {
+      height: 35vh;
+      width: 120vw;
+      margin-left: -5rem;
+      padding: 2rem;
+    }
+    & .button_div {
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .yoga_class {
+    & .pic {
+      height: 35vh;
+      width: 170vw;
+      margin-left: -20rem;
+    }
+    & .yoga_main_container {
+      & .yoga_main_items {
+        & .yoga_img {
+          height: 40%;
+          width: 45%;
+        }
+
+        & .slide_left {
+          margin-left: 1rem;
+          & .yoga_class_title {
+            font-size: 1.2rem;
+          }
+
+          & .yoga_class_desc {
+            font-size: 1rem;
+          }
+
+          & .yoga_day {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+    & .button_div {
+      & .yoga_show_button {
+        width: 25%;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .yoga_class {
+    & .pic {
+      background-image: none;
+      height: 35vh;
+      width: 170vw;
+      margin-left: -17rem;
+    }
+    & .yoga_main_container {
+      margin-top: -2rem;
+      flex-direction: column;
+      text-align: center;
+      margin-left: 0rem;
+      & .yoga_main_items {
+        & .yoga_img {
+          height: 30%;
+          width: 35%;
+        }
+
+        & .slide_left {
+          margin-left: 1rem;
+          & .yoga_class_title {
+            font-size: 1.2rem;
+          }
+
+          & .yoga_class_desc {
+            font-size: 1rem;
+          }
+          & .yoga_line {
+            margin-top: 1rem;
+            height: 0px;
+          }
+
+          & .yoga_day {
+            font-size: 1rem;
+            margin-bottom: rem;
+          }
+          margin-bottom: 2rem;
+        }
+      }
+    }
+    & .button_div {
+      & .yoga_show_button {
+        width: 30%;
+      }
+    }
+  }
+}
+@media (max-width: 425px) {
+  .yoga_class {
+    & .pic {
+      margin-left: -9rem;
+    }
+    & .yoga_main_container {
+      margin-top: -2rem;
+      flex-direction: column;
+      text-align: center;
+      margin-left: 0rem;
+      & .yoga_main_items {
+        & .yoga_img {
+          height: 50%;
+          width: 55%;
+        }
+      }
+    }
+    & .button_div {
+      & .yoga_show_button {
+        width: 50%;
+      }
+    }
+  }
+}
+@media (max-width: 375px) {
+  .yoga_class {
+    & .pic {
+      margin-left: -8rem;
+      & .yoga_title {
+        & .para_1 {
+          font-size: 1.8rem;
+        }
+
+        & .para_2 {
+          font-size: 1.8rem;
+        }
+      }
+    }
+    & .yoga_main_container {
+      margin-top: -3rem;
+      flex-direction: column;
+      text-align: center;
+      margin-left: 0rem;
+      & .yoga_main_items {
+        & .yoga_img {
+          height: 50%;
+          width: 55%;
+        }
+        & .yoga_class_desc {
+          margin-top: 1rem;
+          font-family: $Open_Font;
+          font-weight: 300;
+          color: $Purple_color;
+          font-size: 0.8rem;
+        }
+      }
+    }
+    & .button_div {
+      & .yoga_show_button {
+        width: 50%;
+      }
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .yoga_class {
+    & .pic {
+      margin-left: -7rem;
+    }
+    & .yoga_main_container {
+      & .yoga_main_items {
+        & .yoga_img {
+          height: 80%;
+          width: 85%;
+        }
+        & .slide_left {
+          & .yoga_class_desc {
+            font-size: 0.8rem;
+          }
+        }
+      }
+    }
+    & .button_div {
+      & .yoga_show_button {
+        width: 70%;
       }
     }
   }

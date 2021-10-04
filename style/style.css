@@ -486,6 +486,152 @@
   box-sizing: border-box;
 }
 
+@media (max-width: 1440px) {
+  .yoga_class .pic {
+    height: 35vh;
+    width: 120vw;
+    margin-left: -5rem;
+    padding: 2rem;
+  }
+  .yoga_class .button_div {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .yoga_class .pic {
+    height: 35vh;
+    width: 170vw;
+    margin-left: -20rem;
+  }
+  .yoga_class .yoga_main_container .yoga_main_items .yoga_img {
+    height: 40%;
+    width: 45%;
+  }
+  .yoga_class .yoga_main_container .yoga_main_items .slide_left {
+    margin-left: 1rem;
+  }
+  .yoga_class .yoga_main_container .yoga_main_items .slide_left .yoga_class_title {
+    font-size: 1.2rem;
+  }
+  .yoga_class .yoga_main_container .yoga_main_items .slide_left .yoga_class_desc {
+    font-size: 1rem;
+  }
+  .yoga_class .yoga_main_container .yoga_main_items .slide_left .yoga_day {
+    font-size: 1rem;
+  }
+  .yoga_class .button_div .yoga_show_button {
+    width: 25%;
+  }
+}
+
+@media (max-width: 768px) {
+  .yoga_class .pic {
+    background-image: none;
+    height: 35vh;
+    width: 170vw;
+    margin-left: -17rem;
+  }
+  .yoga_class .yoga_main_container {
+    margin-top: -2rem;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 0rem;
+  }
+  .yoga_class .yoga_main_container .yoga_main_items .yoga_img {
+    height: 30%;
+    width: 35%;
+  }
+  .yoga_class .yoga_main_container .yoga_main_items .slide_left {
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+  }
+  .yoga_class .yoga_main_container .yoga_main_items .slide_left .yoga_class_title {
+    font-size: 1.2rem;
+  }
+  .yoga_class .yoga_main_container .yoga_main_items .slide_left .yoga_class_desc {
+    font-size: 1rem;
+  }
+  .yoga_class .yoga_main_container .yoga_main_items .slide_left .yoga_line {
+    margin-top: 1rem;
+    height: 0px;
+  }
+  .yoga_class .yoga_main_container .yoga_main_items .slide_left .yoga_day {
+    font-size: 1rem;
+    margin-bottom: rem;
+  }
+  .yoga_class .button_div .yoga_show_button {
+    width: 30%;
+  }
+}
+
+@media (max-width: 425px) {
+  .yoga_class .pic {
+    margin-left: -9rem;
+  }
+  .yoga_class .yoga_main_container {
+    margin-top: -2rem;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 0rem;
+  }
+  .yoga_class .yoga_main_container .yoga_main_items .yoga_img {
+    height: 50%;
+    width: 55%;
+  }
+  .yoga_class .button_div .yoga_show_button {
+    width: 50%;
+  }
+}
+
+@media (max-width: 375px) {
+  .yoga_class .pic {
+    margin-left: -8rem;
+  }
+  .yoga_class .pic .yoga_title .para_1 {
+    font-size: 1.8rem;
+  }
+  .yoga_class .pic .yoga_title .para_2 {
+    font-size: 1.8rem;
+  }
+  .yoga_class .yoga_main_container {
+    margin-top: -3rem;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 0rem;
+  }
+  .yoga_class .yoga_main_container .yoga_main_items .yoga_img {
+    height: 50%;
+    width: 55%;
+  }
+  .yoga_class .yoga_main_container .yoga_main_items .yoga_class_desc {
+    margin-top: 1rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    color: #745a82;
+    font-size: 0.8rem;
+  }
+  .yoga_class .button_div .yoga_show_button {
+    width: 50%;
+  }
+}
+
+@media (max-width: 320px) {
+  .yoga_class .pic {
+    margin-left: -7rem;
+  }
+  .yoga_class .yoga_main_container .yoga_main_items .yoga_img {
+    height: 80%;
+    width: 85%;
+  }
+  .yoga_class .yoga_main_container .yoga_main_items .slide_left .yoga_class_desc {
+    font-size: 0.8rem;
+  }
+  .yoga_class .button_div .yoga_show_button {
+    width: 70%;
+  }
+}
+
 .summer_class .summer_title {
   text-align: center;
   margin: 4rem 0 0 0;
@@ -595,6 +741,114 @@
   box-sizing: border-box;
 }
 
+@media (max-width: 1024px) {
+  .summer_class .summer_main_container .summer_main_items .summer_img {
+    height: 45%;
+    width: 60%;
+  }
+  .summer_class .summer_main_container .summer_main_items .summer_join {
+    margin-left: 1rem;
+    padding-right: 1rem;
+  }
+  .summer_class .summer_main_container .summer_main_items .summer_join .summer_class_title {
+    margin-top: 1.1rem;
+    font-size: 1.2rem;
+  }
+  .summer_class .summer_main_container .summer_main_items .summer_join .summer_class_desc {
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+  .summer_class .summer_main_container .summer_main_items .summer_join .summer_day {
+    font-size: 1rem;
+  }
+  .summer_class .button_div .summer_show_button {
+    width: 20%;
+  }
+}
+
+@media (max-width: 768px) {
+  .summer_class .summer_main_container .summer_main_items .summer_img {
+    height: 35%;
+    width: 60%;
+  }
+  .summer_class .summer_main_container .summer_main_items .summer_join {
+    margin-left: 1rem;
+    padding-right: 1rem;
+  }
+  .summer_class .summer_main_container .summer_main_items .summer_join .summer_class_title {
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+  .summer_class .summer_main_container .summer_main_items .summer_join .summer_class_desc {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+  }
+  .summer_class .summer_main_container .summer_main_items .summer_join .summer_day {
+    font-size: 1rem;
+  }
+  .summer_class .button_div .summer_show_button {
+    width: 25%;
+  }
+}
+
+@media (max-width: 425px) {
+  .summer_class .summer_title .para_1 {
+    font-size: 1.8rem;
+  }
+  .summer_class .summer_title .para_2 {
+    font-size: 1.8rem;
+  }
+  .summer_class .summer_main_container {
+    flex-direction: column;
+  }
+  .summer_class .summer_main_container .summer_main_items .summer_img {
+    height: 45%;
+    width: 70%;
+  }
+  .summer_class .summer_main_container .summer_main_items .summer_join {
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    padding-right: 1rem;
+  }
+  .summer_class .summer_main_container .summer_main_items .summer_join .summer_class_title {
+    margin-top: 1.1rem;
+    font-size: 1.2rem;
+  }
+  .summer_class .summer_main_container .summer_main_items .summer_join .summer_class_desc {
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+  .summer_class .summer_main_container .summer_main_items .summer_join .summer_day {
+    font-size: 1rem;
+  }
+  .summer_class .button_div .summer_show_button {
+    width: 45%;
+  }
+}
+
+@media (max-width: 375px) {
+  .summer_class .summer_main_container {
+    margin-left: 0rem;
+    padding: 1rem 4rem;
+  }
+  .summer_class .button_div .summer_show_button {
+    width: 65%;
+  }
+}
+
+@media (max-width: 320px) {
+  .summer_class .summer_title .para_1 {
+    font-size: 1.3rem;
+  }
+  .summer_class .summer_title .para_2 {
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    color: #745a82;
+    letter-spacing: 0.25rem;
+    font-size: 1.3rem;
+  }
+}
+
 .health_section {
   position: relative;
 }
@@ -646,7 +900,7 @@
   display: flex;
   justify-content: space-around;
   margin-top: 4rem;
-  margin-left: 2rem;
+  margin-left: 1rem;
   padding: 1rem 1rem;
 }
 
@@ -670,11 +924,96 @@
 
 .health_section .health_container .health_items .health_para {
   margin-top: 1rem;
+  margin-bottom: 1rem;
   text-align: center;
   font-family: "Open Sans", sans-serif;
   font-size: 1.2rem;
   color: #745a82;
   font-weight: 300;
+}
+
+@media (max-width: 1440px) {
+  .health_section .health_line {
+    width: 35%;
+  }
+  .health_section .health_line2 {
+    width: 35%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .health_section .health_line {
+    width: 30%;
+  }
+  .health_section .health_line2 {
+    width: 30%;
+  }
+}
+
+@media (max-width: 768px) {
+  .health_section .health_line {
+    width: 25%;
+  }
+  .health_section .health_line2 {
+    width: 25%;
+  }
+  .health_section .health_container {
+    margin-top: 1rem;
+    margin-left: -1rem;
+  }
+  .health_section .health_container .health_items .health_img {
+    width: 35%;
+    height: 35%;
+  }
+  .health_section .health_container .health_items .health_item_title {
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+  .health_section .health_container .health_items .health_para {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .health_section .health_line {
+    width: 25%;
+    left: 2rem;
+  }
+  .health_section .health_line2 {
+    width: 25%;
+    right: 2rem;
+  }
+  .health_section .health_title .para_1 {
+    font-size: 1.5rem;
+  }
+  .health_section .health_title .para_2 {
+    font-size: 1.5rem;
+  }
+  .health_section .health_container {
+    flex-direction: column;
+  }
+  .health_section .health_container .health_items .health_img {
+    width: 25%;
+    height: 25%;
+  }
+  .health_section .health_container .health_items .health_item_title {
+    font-size: 1rem;
+  }
+  .health_section .health_container .health_items .health_para {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .health_section .health_line {
+    left: 1rem;
+  }
+  .health_section .health_line2 {
+    right: 1rem;
+  }
 }
 
 .practice_section {

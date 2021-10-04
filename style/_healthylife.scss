@@ -48,7 +48,7 @@
     display: flex;
     justify-content: space-around;
     margin-top: 4rem;
-    margin-left: 2rem;
+    margin-left: 1rem;
     padding: 1rem 1rem;
 
     & .health_items {
@@ -72,12 +72,127 @@
 
       & .health_para {
         margin-top: 1rem;
+        margin-bottom: 1rem;
         text-align: center;
         font-family: $Open_Font;
         font-size: 1.2rem;
         color: $Purple_color;
         font-weight: 300;
       }
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  .health_section {
+    & .health_line {
+      width: 35%;
+    }
+
+    & .health_line2 {
+      width: 35%;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .health_section {
+    & .health_line {
+      width: 30%;
+    }
+
+    & .health_line2 {
+      width: 30%;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .health_section {
+    & .health_line {
+      width: 25%;
+    }
+
+    & .health_line2 {
+      width: 25%;
+    }
+    & .health_container {
+      margin-top: 1rem;
+      margin-left: -1rem;
+
+      & .health_items {
+        & .health_img {
+          width: 35%;
+          height: 35%;
+        }
+
+        & .health_item_title {
+          margin-top: 1rem;
+          font-size: 1rem;
+        }
+
+        & .health_para {
+          margin-top: 1rem;
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 425px) {
+  .health_section {
+    & .health_line {
+      width: 25%;
+      left: 2rem;
+    }
+    & .health_line2 {
+      width: 25%;
+      right: 2rem;
+    }
+
+    & .health_title {
+      & .para_1 {
+        font-size: 1.5rem;
+      }
+
+      & .para_2 {
+        font-size: 1.5rem;
+      }
+    }
+
+    & .health_container {
+      flex-direction: column;
+
+      & .health_items {
+        & .health_img {
+          width: 25%;
+          height: 25%;
+        }
+
+        & .health_item_title {
+          font-size: 1rem;
+        }
+
+        & .health_para {
+          margin-top: 1rem;
+          margin-bottom: 1rem;
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+}
+
+@media (max-width: 320px) {
+  .health_section {
+    & .health_line {
+      left: 1rem;
+    }
+    & .health_line2 {
+      right: 1rem;
     }
   }
 }

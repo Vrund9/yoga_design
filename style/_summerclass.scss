@@ -3,7 +3,6 @@
   text-transform: uppercase;
   color: $Purple_color;
   letter-spacing: 0.25rem;
-  font-size: 2.5rem;
 }
 
 .summer_class {
@@ -14,11 +13,13 @@
     & .para_1 {
       font-weight: 300;
       @include common_para;
+      font-size: 2.5rem;
     }
 
     & .para_2 {
       font-weight: 700;
       @include common_para;
+      font-size: 2.5rem;
     }
   }
 
@@ -105,6 +106,152 @@
         background-color: white;
         border: 2px solid $Purple_color;
         box-sizing: border-box;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .summer_class {
+    & .summer_main_container {
+      & .summer_main_items {
+        & .summer_img {
+          height: 45%;
+          width: 60%;
+        }
+
+        & .summer_join {
+          margin-left: 1rem;
+          padding-right: 1rem;
+          & .summer_class_title {
+            margin-top: 1.1rem;
+            font-size: 1.2rem;
+          }
+
+          & .summer_class_desc {
+            margin-top: 1rem;
+            font-size: 1rem;
+          }
+
+          & .summer_day {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+    & .button_div {
+      & .summer_show_button {
+        width: 20%;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .summer_class {
+    & .summer_main_container {
+      & .summer_main_items {
+        & .summer_img {
+          height: 35%;
+          width: 60%;
+        }
+
+        & .summer_join {
+          margin-left: 1rem;
+          padding-right: 1rem;
+          & .summer_class_title {
+            margin-top: 1rem;
+            font-size: 1rem;
+          }
+
+          & .summer_class_desc {
+            margin-top: 1rem;
+            font-size: 0.8rem;
+          }
+
+          & .summer_day {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+    & .button_div {
+      & .summer_show_button {
+        width: 25%;
+      }
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .summer_class {
+    & .summer_title {
+      & .para_1 {
+        font-size: 1.8rem;
+      }
+
+      & .para_2 {
+        font-size: 1.8rem;
+      }
+    }
+    & .summer_main_container {
+      flex-direction: column;
+      & .summer_main_items {
+        & .summer_img {
+          height: 45%;
+          width: 70%;
+        }
+
+        & .summer_join {
+          margin-bottom: 2rem;
+          margin-left: 1rem;
+          padding-right: 1rem;
+          & .summer_class_title {
+            margin-top: 1.1rem;
+            font-size: 1.2rem;
+          }
+
+          & .summer_class_desc {
+            margin-top: 1rem;
+            font-size: 1rem;
+          }
+
+          & .summer_day {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+    & .button_div {
+      & .summer_show_button {
+        width: 45%;
+      }
+    }
+  }
+}
+@media (max-width: 375px) {
+  .summer_class {
+    & .summer_main_container {
+      margin-left: 0rem;
+      padding: 1rem 4rem;
+    }
+    & .button_div {
+      & .summer_show_button {
+        width: 65%;
+      }
+    }
+  }
+}
+@media (max-width: 320px) {
+  .summer_class {
+    & .summer_title {
+      & .para_1 {
+        font-size: 1.3rem;
+      }
+
+      & .para_2 {
+        @include common_para;
+        font-size: 1.3rem;
       }
     }
   }
