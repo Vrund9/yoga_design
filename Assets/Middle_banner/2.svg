@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1786 1016" width="1786" height="1016">
+	<title>Shape</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #745a82 } 
+		.shp1 { fill: #9779a7 } 
+		.shp2 { fill: #ffffff } 
+	</style>
+	<path id="Shape" class="shp0" d="M48.57 1033C48.57 565.65 427.43 186.79 894.78 186.79C1362.14 186.79 1741 565.65 1741 1033L1741 107L45 107L45 1033L48.57 1033Z" />
+	<path id="Shape" class="shp1" d="M-80.81 1103C-80.81 553.89 364.18 108.75 913.1 108.75C1462.01 108.75 1907 553.89 1907 1103L1907 15L-85 15L-85 1103L-80.81 1103Z" />
+	<path id="Shape" class="shp2" d="M-168.34 1132C-168.34 521.82 326.24 27.18 936.33 27.18C1546.42 27.18 2041 521.82 2041 1132L2041 -77L-173 -77L-173 1132L-168.34 1132Z" />
+</svg>

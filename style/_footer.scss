@@ -5,21 +5,34 @@
 }
 
 .footer {
-  margin: 0rem 4rem 4rem 4rem;
+  // margin: 0rem 4rem 4rem 4rem;
   // border: 1px solid black;
+  padding-top: 10rem;
   position: relative;
+  overflow: hidden;
 
-  // height: 90vh;
-  // width: 100vw;
-  // & .rainbow_shape {
-  //   background-image: url(../Assets/Footer_design/rainbowShape.svg);
-  //   background-repeat: no-repeat;
-  //   height: 90vh;
-  //   width: 100vw;
-  //   position: absolute;
-  //   top: -5rem;
-  //   left: 2rem;
-  // }
+  & .rainbow_shape {
+    width: 120vw;
+    height: 110vh;
+    margin-left: -13rem;
+    border-radius: 50%;
+    outline: 5rem solid #ecf1f1;
+    position: absolute;
+    background-color: transparent;
+    box-shadow: 0px -11px 10px 0px rgba(0, 0, 0, 0.59);
+  }
+
+  & .rainbow_shape2 {
+    width: 120vw;
+    height: 110vh;
+    margin-top: -3.5rem;
+    margin-left: -13rem;
+    border-radius: 50%;
+    outline: 5rem solid #d5dbdb;
+    position: absolute;
+    background-color: transparent;
+    box-shadow: 0px -4px 10px 0px rgba(0, 0, 0, 0.34);
+  }
 
   & .quotes_part {
     margin-top: 5rem;
@@ -50,7 +63,7 @@
     display: flex;
 
     & .footer_items {
-      margin: 2rem 4rem;
+      margin: 2rem 8rem;
 
       & .title {
         @include common;

@@ -11,6 +11,7 @@
   background-repeat: no-repeat;
   margin-top: -9rem;
   margin-left: -6rem;
+
   // border: 1px solid black;
   & .practice_container {
     display: flex;
@@ -93,6 +94,42 @@
     & .right_side_flex {
       // border: 1px solid black;
       margin-left: 25rem;
+      position: relative;
+
+      & .circle {
+        position: absolute;
+        top: 5rem;
+        left: 13.8rem;
+        width: 2.5%;
+        height: 3%;
+        border-radius: 50%;
+        background-color: $Purple_color;
+      }
+
+      & .circle2 {
+        position: absolute;
+        top: 28rem;
+        right: 4rem;
+        width: 2.5%;
+        height: 3%;
+        border-radius: 50%;
+        background-color: $Purple_color;
+      }
+
+      & .straightText {
+        font-family: $Open_Font;
+        text-transform: uppercase;
+        color: $Purple_color;
+        font-size: 1rem;
+        text-orientation: upright;
+        writing-mode: vertical-rl;
+        display: inline-block;
+        top: 30rem;
+        right: -5rem;
+        position: absolute;
+        letter-spacing: 10px;
+        line-height: 33px;
+      }
       & .rightoutsideout {
         margin-left: 10rem;
         border: 1px solid $Purple_color;
